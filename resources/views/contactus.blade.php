@@ -42,7 +42,7 @@
 					<p>Consulatu quietem ipsas obruamus. Controversia unam queo firmam videri, afranius derigatur sine sentit inliberali beatam scribendi splendide. Recusabo maximisque ferentur arbitraretur vellem oritur cupiditatibus copulatas.</p>
 					<ul class="mg-contact-info">
 						<li><i class="fa fa-map-marker"></i>222 W. 6th Street Suite #406 San Pedro, CA 90731</li>
-						<li><i class="fa fa-phone"></i> +1-310-456-789 (Sale)</li>
+						<li><i class="fa fa-phone"></i><a href="tel:+1310456789">+1-310-456-789 (Sale)</a></li>
 						<li><i class="fa fa-envelope"></i><a href="mailto:info@optimumautonetwork.com">info@optimumautonetwork.com</a></li>
 					</ul>
 					<div id="mg-map" class="mg-map"></div>

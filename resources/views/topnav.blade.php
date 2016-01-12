@@ -1,4 +1,3 @@
-<div class="preloader"></div>
 <header class="header transp sticky"> <!-- available class for header: .sticky .center-content .transp -->
 	<nav class="navbar navbar-inverse">
 		<div class="container">
@@ -22,15 +21,6 @@
 				
 				</ul>
 			</div><!-- /.navbar-collapse -->
-			<div class="mg-search-box-cont pull-right">
-				<a href="#" class="mg-search-box-trigger"><i class="fa fa-search"></i></a>
-				<div class="mg-search-box">
-					<form>
-						<input type="text" name="s" class="form-control" placeholder="Type Keyword...">
-						<button type="submit" class="btn btn-main"><i class="fa fa-search"></i></button>
-					</form>
-				</div>
-			</div>
 		</div><!-- /.container-fluid -->
 	</nav>
 </header>

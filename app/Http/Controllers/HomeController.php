@@ -30,7 +30,7 @@ class HomeController extends Controller
     	$data = array();
 
     	$data['current_page'] = 'contactus';
-
+        
     	return view('contactus', $data);
     }
 

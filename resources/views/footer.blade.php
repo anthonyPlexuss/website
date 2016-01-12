@@ -7,12 +7,12 @@
 							<h2 class="mg-widget-title">Contact US</h2>
 							<address>
 								<strong>Optimum Auto Network</strong><br>
-								222 W. 6th Street Suite#406<br>
+								222 W. 6th Street Suite #406<br>
 								San Pedro, CA 90731
 							</address>
 			
 							<p>
-								+1-310-456-789<br>
+								<a href="tel:+1310456789">+1-310-456-789</a><br>
 							</p>
 			
 							<p>
@@ -95,9 +95,7 @@
 	<script src="js/starrr.min.js"></script>
 	<script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/jquery.shuffle.min.js"></script>
-	<!--
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="js/gmaps.min.js"></script>
-	-->
 	<script src="js/jquery.parallax-1.1.3.js"></script>
 	<script src="js/script.js"></script>

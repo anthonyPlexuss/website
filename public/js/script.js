@@ -395,17 +395,17 @@
 
 	    var map = new GMaps({
 			el: '#mg-map',
-			lat: -37.81792,
-			lng: 144.96506,
+			lat: 33.739006,
+			lng: -118.281917,
 			zoom: 17
 		});
 
 		map.addMarker({
-			lat: -37.81792,
-			lng: 144.96506,
+			lat: 33.739006,
+			lng: -118.281917,
 			title: 'Map',
 			infoWindow: {
-				content: '<strong>Envato</strong><br>Level 13, 2 Elizabeth St, Melbourne<br>Victoria 3000 Australia'
+				content: '<strong>Optimum Auto Network</strong><br>222 W. 6th Street Suite #406 <br />San Pedro, CA 90731'
 			}
 		});
 	}
