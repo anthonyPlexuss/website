@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
+use  App\Http\Controllers\Input;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -36,5 +38,11 @@ class HomeController extends Controller
 
     public function index2(){
     	return view('index2');
+    }
+
+    public function saveContactUs(Request $request){
+
+        $input = $request->input();
+        dd($input);
     }
 }

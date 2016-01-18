@@ -14,10 +14,9 @@
 	<div class="mg-page">
 		<div class="container">
 			<div class="row">
-				
 				<div class="col-md-5">
 					<h2 class="mg-sec-left-title">Send an E-mail</h2>
-					<form class="clearfix">
+					{{ Form::open(array('url' => '/contact-us', 'method' => 'POST', 'id' => 'contactus-form' )) }}
 						<div class="mg-contact-form-input">
 							<label for="full-name">Full Name</label>
 							<input type="text" class="form-control" id="full-name">
@@ -35,7 +34,7 @@
 							<textarea class="form-control" id="subject" rows="5"></textarea>
 						</div>
 						<input type="submit" class="btn btn-dark-main pull-right" value="Send">
-					</form>
+					{{ Form::close() }}
 				</div>
 				<div class="col-md-7">
 					<h2 class="mg-sec-left-title">Office Address</h2>

@@ -446,3 +446,29 @@ $(window).load(function () {
 $(window).load(function () {
 	$('.preloader').fadeOut("slow");
 });
+
+/*
+ *
+ */
+Opt.contactus = {};
+
+Opt.contactus.saveInfo = function(e){
+
+	// var _this = $(this);
+
+	// console.log(_this.serialize());
+	// // Serialize the form data.
+	var form = document.getElementById('contactus-form');
+
+	var formData = new FormData(form);
+	$.ajax({
+		url: '/contact-us/saveInfo',
+		type: 'POST',
+		data: formData,
+	})
+	.done(function() {
+		console.log("success");
+	});
+	e.preventDefault();	
+	console.log('here');
+}

@@ -3111,6 +3111,9 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
 .alert .close:hover {
   opacity: 1;
 }
+.hideThisElement{
+  display: none;
+}
 .alert-success {
   border-color: #d0edce;
   background-color: #effbf0;
