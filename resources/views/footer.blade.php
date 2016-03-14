@@ -20,35 +20,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="widget">
-							<h2 class="mg-widget-title">Instagram</h2>
-							<ul class="mg-instagram">
-								<li><a href="#"><img src="images/ins-01.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-02.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-03.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-04.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-05.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-06.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-07.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-08.png" alt=""></a></li>
-								<li><a href="#"><img src="images/ins-09.png" alt=""></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="widget">
-							<h2 class="mg-widget-title">Newsletter</h2>
-							<p>Inbecilloque elegans errorem concedo coniuncta arare dicant etsi electram minimum.</p>
-							<form>
-								<p>
-									<input type="email" class="form-control" placeholder="Your Email">
-								</p>
-								<input type="submit" class="btn btn-main" value="Subscribe">
-							</form>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-md-offset-3">
 						<div class="widget">
 							<h2 class="mg-widget-title">Social Media</h2>
 							<ul class="mg-footer-social">
