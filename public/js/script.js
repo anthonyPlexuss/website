@@ -452,23 +452,33 @@ $(window).load(function () {
  */
 Opt.contactus = {};
 
-Opt.contactus.saveInfo = function(e){
 
-	// var _this = $(this);
 
-	// console.log(_this.serialize());
-	// // Serialize the form data.
-	var form = document.getElementById('contactus-form');
+Opt.contactus.saveInfo = function(elem){
 
-	var formData = new FormData(form);
-	$.ajax({
-		url: '/contact-us/saveInfo',
-		type: 'POST',
-		data: formData,
-	})
-	.done(function() {
-		console.log("success");
+	var form = elem.closest('form');
+	var formdata = new FormData(form[0]);
+
+	var inputName = $('#inputName').val();
+	var inputEmail = $('#inputEmail').val();
+	var inputSubject = $('#inputSubject').val();
+	var inputMessage = $('#inputMessage').val();
+	var inputPhone = $('#inputPhone').val();
+
+	var route = '/contact-us';
+	console.log(formdata);
+	$.post(route, {inputName: inputName, inputEmail: inputEmail, inputPhone: inputPhone,
+				   inputMessage: inputMessage, inputSubject: inputSubject}, 
+				   function(data, textStatus, xhr) {
+		/*optional stuff to do after success */
+		$('.alert-success').removeClass('hideThisElement');
 	});
-	e.preventDefault();	
-	console.log('here');
+	
 }
+
+$(document).on('click', '.btn-dark-main', function(e){
+
+	e.preventDefault();
+	Opt.contactus.saveInfo($(this));
+});
+

@@ -20,7 +20,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-md-offset-3">
+					<div class="col-md-3 col-sm-6 col-md-offset-6">
 						<div class="widget">
 							<h2 class="mg-widget-title">Social Media</h2>
 							<ul class="mg-footer-social">
@@ -73,3 +73,4 @@
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/jquery.parallax-1.1.3.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/bootstrap-formhelpers-phone.js"></script>

@@ -15,26 +15,47 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5">
-					<h2 class="mg-sec-left-title">Send an E-mail</h2>
-					{{ Form::open(array('url' => '/contact-us', 'method' => 'POST', 'id' => 'contactus-form' )) }}
-						<div class="mg-contact-form-input">
-							<label for="full-name">Full Name</label>
-							<input type="text" class="form-control" id="full-name">
-						</div>
-						<div class="mg-contact-form-input">
-							<label for="email">E-mail</label>
-							<input type="text" class="form-control" id="email">
-						</div>
-						<div class="mg-contact-form-input">
-							<label for="subject">Subject</label>
-							<input type="text" class="form-control" id="subject">
-						</div>
-						<div class="mg-contact-form-input">
-							<label for="subject">Message</label>
-							<textarea class="form-control" id="subject" rows="5"></textarea>
-						</div>
-						<input type="submit" class="btn btn-dark-main pull-right" value="Send">
+					<div class="alert alert-success hideThisElement">
+					  <strong>Thank you!</strong> We will contact you shortly.
+					</div>
+					<h2 class="mg-sec-left-title">Request a quote</h2>
+					{{Form::open(array('data-abide' => 'ajax', 'id' => 'contact-id', 'data-toggle' => 
+					'validator', 'role' => "form"))}}
+					  <div class="mg-contact-form-input form-group">
+					    	<label for="inputName" class="control-label">Full Name</label>
+					    	<input type="text" class="form-control" id="inputName" placeholder="Cina Saffary" required>
+					  </div>
+					  <div class="mg-contact-form-input form-group">
+					    	<label for="inputEmail" class="control-label">Email</label>
+					    	<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+					    <div class="help-block with-errors"></div>
+					  </div>
+
+					   <div class="mg-contact-form-input form-group">
+					  		<label for="inputPhone">Phone</label>
+							<input id="inputPhone" type="text" class="form-control input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd">
+							<div class="help-block with-errors"></div>
+					  </div>
+
+					  
+					   <div class="mg-contact-form-input form-group">
+					   		<label for="inputName" class="control-label">Subject Name</label>
+					    	<input type="text" class="form-control" id="inputSubject" placeholder="New Leasing Offers!" required>
+					  </div>
+					  <div class="mg-contact-form-input form-group">
+					  		<label for="inputMessage">Message</label>
+							<textarea class="form-control" id="inputMessage" rows="5"></textarea>
+							<div class="help-block with-errors"></div>
+					  </div>
+					  <div class="form-group">
+					  		<input type="submit" class="btn btn-dark-main pull-right" value="Send">
+					  </div>
 					{{ Form::close() }}
+					<br />
+					<br />
+					<div class="alert alert-success hideThisElement">
+					  <strong>Thank you!</strong> We will contact you shortly.
+					</div>
 				</div>
 				<div class="col-md-7">
 					<h2 class="mg-sec-left-title">Office Address</h2>
