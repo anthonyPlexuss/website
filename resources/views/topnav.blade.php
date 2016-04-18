@@ -9,13 +9,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" style="padding-top: 1em;"></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="@if($current_page == 'home'){{'active'}}@endif"><a href="/">Home</a></li>
-					<li class="@if($current_page == 'vehicles'){{'active'}}@endif"><a href="/vehicles">Vehicles</a></li>
+					<!--<li class="@if($current_page == 'vehicles'){{'active'}}@endif"><a href="/vehicles">Vehicles</a></li>-->
+					<li class="@if($current_page == 'application'){{'active'}}@endif"><a href="/application">Application</a></li>
 					<li class="@if($current_page == 'aboutus'){{'active'}}@endif"><a href="/about-us">About Us</a></li>
 					<li class="@if($current_page == 'contactus') {{'active'}} @endif"><a href="/contact-us">Contact Us</a></li>
 				

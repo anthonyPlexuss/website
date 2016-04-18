@@ -16,11 +16,14 @@
 // });
 
 Route::get('/', 'HomeController@index');
+Route::get('/2', 'HomeController@index2');
 Route::get('/about-us', 'HomeController@aboutus');
 Route::get ('/contact-us', 'HomeController@contactus');
 Route::post('/contact-us', 'HomeController@saveContactUs');
 Route::get('/vehicles', 'HomeController@vehicles');
 Route::get('/i2', 'HomeController@index2');
+
+Route::get('/application', 'HomeController@application');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

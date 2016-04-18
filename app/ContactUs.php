@@ -9,5 +9,5 @@ class ContactUs extends Model
   
 	protected $table = 'contact_us';
 
-	protected $fillable = array( 'full_name', 'email', 'subject', 'body');
+	protected $fillable = array( 'full_name', 'email', 'subject', 'body', 'phone');
 }

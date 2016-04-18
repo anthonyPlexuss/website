@@ -9,6 +9,7 @@ use  App\Http\Controllers\Input;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
+use App\ContactUs;
 
 class HomeController extends Controller
 {
@@ -37,6 +38,15 @@ class HomeController extends Controller
     	return view('contactus', $data);
     }
 
+    public function application(){
+
+        $data = array();
+
+        $data['current_page'] = 'application';
+        
+        return view('application', $data);
+    }
+
     public function index2(){
     	return view('index2');
     }
@@ -45,10 +55,19 @@ class HomeController extends Controller
 
         $input = $request->input();
 
-        Mail::send('email', $input, function($message)
-        {
-            $message->to('reza.shayesteh@gmail.com', 'Reza Shayesteh')->subject('New Lead');
-        });
-        dd($input);
+        $cu =  new ContactUs;
+        $cu->full_name = $input['inputName'];
+        $cu->email = $input['inputEmail'];
+        $cu->phone = $input['inputPhone'];
+        $cu->body = $input['inputMessage'];
+        $cu->subject = $input['inputSubject'];
+
+        $cu->save();
+        // Mail::send('email', $input, function($message)
+        // {
+        //     $message->to('reza.shayesteh@gmail.com', 'Reza Shayesteh')->subject('New Lead');
+        // });
+        //dd($input);
+        return "success";
     }
 }
