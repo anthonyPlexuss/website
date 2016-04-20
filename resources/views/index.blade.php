@@ -15,7 +15,7 @@
 					<div class="carousel-caption">
 						<img src="images/stars.png" alt="...">
 						<h2>Optimum Auto Network</h2>
-						<p>Every Score Approved!</p>
+						<p>Any Score Approved!</p>
 					</div>
 				</div>
 			</div>
