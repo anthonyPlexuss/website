@@ -60,7 +60,7 @@
 					<p>Do you have questions or comments for us? We'd love to hear them! Fill out the form and we will get back to you as soon as possible. If you need help with any aspect of the leasing/buying process, please don't hesitate to ask us. Our customer service representatives will be happy to assist you in any way. Whether through email, phone or in person, we're here to help you get the customer service you deserve.</p>
 					<ul class="mg-contact-info">
 						<li><i class="fa fa-map-marker"></i>222 W. 6th Street Suite #406 San Pedro, CA 90731</li>
-						<li><i class="fa fa-phone"></i><a href="tel:+1310456789">+1-310-940-8766 (Sale)</a></li>
+						<li><i class="fa fa-phone"></i><a href="tel:+1310456789">+1-888-386-5271 (Sale)</a></li>
 						<li><i class="fa fa-envelope"></i><a href="mailto:info@optimumautonetwork.com">info@optimumautonetwork.com</a></li>
 					</ul>
 					<div id="mg-map" class="mg-map"></div>
