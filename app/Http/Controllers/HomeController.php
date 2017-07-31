@@ -47,6 +47,14 @@ class HomeController extends Controller
         return view('application', $data);
     }
 
+    public function creditApplication(){
+        $data = array();
+
+        $data['current_page'] = 'creditApplication';
+        
+        return view('creditApplication', $data);
+    }
+
     public function index2(){
     	return view('index2');
     }

@@ -24,6 +24,7 @@ Route::get('/vehicles', 'HomeController@vehicles');
 Route::get('/i2', 'HomeController@index2');
 
 Route::get('/application', 'HomeController@application');
+Route::get('/credit-application', 'HomeController@creditApplication');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

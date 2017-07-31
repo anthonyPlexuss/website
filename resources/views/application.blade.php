@@ -39,7 +39,7 @@ Just download and complete the appropriate form, then send it along with a copy 
 					<div class="mg-feature">
 						<div class="mg-feature-icon-title">
 							<i class="fp-ht-maid"></i>
-							<h3><a href="/applications/Optimum_Auto_Network_Credit_Application.pdf" target="_link">Credit Application</a></h3>
+							<h3><a href="/credit-application" target="_link">Credit Application</a></h3>
 						</div>
 					</div>
 				</div>
