@@ -50,7 +50,7 @@ class HomeController extends Controller
     public function creditApplication(){
         $data = array();
 
-        $data['current_page'] = 'creditApplication';
+        $data['current_page'] = 'GET PRE-APPROVED';
         
         return view('creditApplication', $data);
     }
